@@ -6,6 +6,9 @@ import logo2 from "../src/assets/images/hero_section_image/logo2.png";
 import logo3 from "../src/assets/images/hero_section_image/logo3.png";
 import logo4 from "../src/assets/images/hero_section_image/logo4.png";
 import logo5 from "../src/assets/images/hero_section_image/logo5.png";
+import img1 from '../src/assets/images/about_us_image/img1.png'
+import img2 from '../src/assets/images/about_us_image/img2.png'
+import img3 from '../src/assets/images/about_us_image/img3.png'
 function App() {
   return (
     <div className="main_page_container">
@@ -101,6 +104,13 @@ function App() {
             </p>
           </div>
         </div>
+        <div className="display_image_container flex gap-4 mt-5">
+          <div className="display_image"><img src={img1} alt="" /></div>
+          <div className="display_image"><img src={img2} alt="" /></div>
+          <div className="display_image"><img src={img3} alt="" /></div>
+        </div>
+        {/*  */}
+        
       </div>
     </div>
   );
