@@ -110,8 +110,28 @@ function App() {
           <div className="display_image"><img src={img3} alt="" /></div>
         </div>
         {/*  */}
-        
+
+      <div className="expertise_container flex py-8 items-center">
+        <div className="expertise"><p  className="text-[14px]" >Our expertise</p>
+        <p className="text-5xl font-bold py-5" >We want to get local identification in every corner of the world in this era of global citizenship</p>
+        <p className="text-base text-gray-500 py-5">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position concluded. </p></div>
+        <div className="expertise">
+          <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
+            <p>On Time Delivery</p>
+            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+            </div> </div>
+            <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
+            <p>Best Quality</p>
+            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+            </div> </div>
+            <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
+            <p>Support Assist</p>
+            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
+            </div> </div>
+        </div>
       </div>
+      </div>
+      {/*  */}
     </div>
   );
 }
