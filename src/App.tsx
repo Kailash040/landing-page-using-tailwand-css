@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="main_container_navbar bg-slate-950">
 
-    <div className="container mx-auto py-4">
+    <div className=" container mx-auto py-4 px-9">
       <nav className="flex justify-between ">
         <div>
           {" "}
@@ -27,17 +27,18 @@ function App() {
         </div>
       </nav>
       <header>
-        <div className=" flex justify-between py-12  items-center ">
-          <div className="left_hero_section text-white  ">
-          <h1 className="text-[56px] w-[60%] ">Transform Your Idea Into Reality with Finsweet</h1>
-            <p className="text-[16px] w-[55%]" >The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude.</p>
+        <div className=" flex  justify-between py-12  items-center flex-wrap">
+          <div className="left_hero_section text-white w-1/2  ">
+          <h1 className="text-[56px] ">Transform Your Idea Into Reality with Finsweet</h1>
+            <p className="text-[16px]  py-3" >The entire Finsweet team knows what's good with Webflow and you can too with 1 week and a good attitude.</p>
             <button className="bg-red-500 py-2 px-3  text-[16px] my-4 hover:bg-red-700">Request Quote</button>
           </div>
-          <div className="right_hero_section ">
+          <div className="right_hero_section  ">
            <img src={hero_image} className="w-full" alt="her_image" />
           </div>
 
         </div>
+
       </header>
     </div>
     </div>
