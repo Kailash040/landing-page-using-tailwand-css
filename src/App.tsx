@@ -8,6 +8,8 @@ import logo4 from '../src/assets/images/hero_section_image/logo4.png'
 import logo5 from '../src/assets/images/hero_section_image/logo5.png'
 function App() {
   return (
+    <div className="main_page_container">
+
     <div className="main_container_navbar bg-slate-950">
 
     <div className=" container mx-auto py-4 px-9">
@@ -52,6 +54,14 @@ function App() {
   <div className="hero_section_logo"><img src={logo5} alt="hero_section_logo" /></div>
 </div>
       </header>
+    </div>
+    </div>
+    <div className="about_us container mx-auto py-12 px-9">
+<p>ABOUT US</p>
+<div className="about_container flex justify-between items-center">
+  <div className="about"><p className="text-[48px] font-bold">The company leads entire webdesign process from concept to delivery.</p></div>
+  <div className="about"><p className="text-[36px] font-medium ">The Era Of Technology.</p> <p className="text-base  text-gray-600 py-2">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position concluded. </p></div>
+</div>
     </div>
     </div>
   );
