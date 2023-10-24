@@ -1,6 +1,11 @@
 import "./App.css";
 import Logo from "../src/assets/images/navbar_image/Logo.svg";
 import hero_image from '../src/assets/images/hero_section_image/hero_image.png'
+import logo1 from '../src/assets/images/hero_section_image/logo1.png'
+import logo2 from '../src/assets/images/hero_section_image/logo2.png'
+import logo3 from '../src/assets/images/hero_section_image/logo3.png'
+import logo4 from '../src/assets/images/hero_section_image/logo4.png'
+import logo5 from '../src/assets/images/hero_section_image/logo5.png'
 function App() {
   return (
     <div className="main_container_navbar bg-slate-950">
@@ -38,7 +43,14 @@ function App() {
           </div>
 
         </div>
-
+<div className="hero_section_logo_container flex justify-between items-center flex-wrap">
+  <div className="hero_section_logo"><p className="text-white font-light   ">Our Clients</p> <p className="text-white font-medium   ">We've Worked with</p></div>
+  <div className="hero_section_logo"><img src={logo1} alt="hero_section_logo" /></div>
+  <div className="hero_section_logo"><img src={logo2} alt="hero_section_logo" /></div>
+  <div className="hero_section_logo"><img src={logo3} alt="hero_section_logo" /></div>
+  <div className="hero_section_logo"><img src={logo4} alt="hero_section_logo" /></div>
+  <div className="hero_section_logo"><img src={logo5} alt="hero_section_logo" /></div>
+</div>
       </header>
     </div>
     </div>
