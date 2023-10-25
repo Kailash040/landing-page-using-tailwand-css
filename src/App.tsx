@@ -6,9 +6,12 @@ import logo2 from "../src/assets/images/hero_section_image/logo2.png";
 import logo3 from "../src/assets/images/hero_section_image/logo3.png";
 import logo4 from "../src/assets/images/hero_section_image/logo4.png";
 import logo5 from "../src/assets/images/hero_section_image/logo5.png";
-import img1 from '../src/assets/images/about_us_image/img1.png'
-import img2 from '../src/assets/images/about_us_image/img2.png'
-import img3 from '../src/assets/images/about_us_image/img3.png'
+import img1 from "../src/assets/images/about_us_image/img1.png";
+import img2 from "../src/assets/images/about_us_image/img2.png";
+import img3 from "../src/assets/images/about_us_image/img3.png";
+import expertise1 from "../src/assets/images/expertise_image/expertise1.png";
+import expertise2 from "../src/assets/images/expertise_image/expertise2.png";
+import expertise3 from "../src/assets/images/expertise_image/expertise3.png";
 function App() {
   return (
     <div className="main_page_container">
@@ -105,32 +108,81 @@ function App() {
           </div>
         </div>
         <div className="display_image_container flex gap-4 mt-5">
-          <div className="display_image"><img src={img1} alt="" /></div>
-          <div className="display_image"><img src={img2} alt="" /></div>
-          <div className="display_image"><img src={img3} alt="" /></div>
+          <div className="display_image">
+            <img src={img1} alt="" />
+          </div>
+          <div className="display_image">
+            <img src={img2} alt="" />
+          </div>
+          <div className="display_image">
+            <img src={img3} alt="" />
+          </div>
         </div>
         {/*  */}
 
-      <div className="expertise_container flex py-8 items-center">
-        <div className="expertise"><p  className="text-[14px]" >Our expertise</p>
-        <p className="text-5xl font-bold py-5" >We want to get local identification in every corner of the world in this era of global citizenship</p>
-        <p className="text-base text-gray-500 py-5">Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw his giving Remain expense you position concluded. </p></div>
-        <div className="expertise">
-          <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
-            <p>On Time Delivery</p>
-            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
-            </div> </div>
-            <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
-            <p>Best Quality</p>
-            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
-            </div> </div>
-            <div className="expertise_item"><img src="" alt="" /> <div className="expertise_item_para">
-            <p>Support Assist</p>
-            <p>Through True Rich Attended does no end it his mother since real had half every him.</p>
-            </div> </div>
+      </div>
+      <div className="expertise_container_main bg-cyan-50">
+
+      
+        <div className="expertise_container container mx-auto flex py-8  px-9 items-center justify-between ">
+          <div className="expertise w-[50%]">
+            <p className="text-[14px]">Our expertise</p>
+            <p className="text-5xl font-bold py-5">
+              We want to get local identification in every corner of the world
+              in this era of global citizenship
+            </p>
+            <p className="text-base text-gray-500 py-5">
+              Through True Rich Attended does no end it his mother since real
+              had half every him case in packages enquire we up ecstatic
+              unsatiable saw his giving Remain expense you position concluded.{" "}
+            </p>
+          </div>
+          <div className="expertise w-[40%] flex flex-col gap-4">
+            <div className="expertise_item bg-white px-4 flex gap-3 py-5 ">
+              <img
+                src={expertise1}
+                className="w-[47px] h-[47px]"
+                alt="expertise1"
+              />{" "}
+              <div className="expertise_item_para">
+                <p className="text-base font-semibold">On Time Delivery</p>
+                <p className="text-[14px] font-medium text-gray-600">
+                  Through True Rich Attended does no end it his mother since
+                  real had half every him.
+                </p>
+              </div>{" "}
+            </div>
+            <div className="expertise_item flex gap-3 py-5 px-4 bg-white">
+              <img
+                src={expertise2}
+                alt="expertise2"
+                className="w-[47px] h-[47px]"
+              />{" "}
+              <div className="expertise_item_para">
+                <p className="text-base font-semibold">Best Quality</p>
+                <p className="text-[14px] font-medium text-gray-600">
+                  Through True Rich Attended does no end it his mother since
+                  real had half every him.
+                </p>
+              </div>{" "}
+            </div>
+            <div className="expertise_item flex gap-3 py-5 px-4 bg-white">
+              <img
+                src={expertise3}
+                className="w-[47px] h-[47px]"
+                alt="expertise3"
+              />{" "}
+              <div className="expertise_item_para">
+                <p className="text-base font-semibold">Support Assist</p>
+                <p className="text-[14px] font-medium text-gray-600">
+                  Through True Rich Attended does no end it his mother since
+                  real had half every him.
+                </p>
+              </div>{" "}
+            </div>
+          </div>
         </div>
-      </div>
-      </div>
+        </div>
       {/*  */}
     </div>
   );
