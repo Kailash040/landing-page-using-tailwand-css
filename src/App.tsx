@@ -119,6 +119,18 @@ function App() {
           </div>
         </div>
         {/*  */}
+        <div className="display_image_container flex gap-4 mt-5">
+          <div className="display_image">
+            <img src={img1} alt="" />
+          </div>
+          <div className="display_image">
+            <img src={img2} alt="" />
+          </div>
+          <div className="display_image">
+            <img src={img3} alt="" />
+          </div>
+        </div>
+        {/*  */}
 
       </div>
       <div className="expertise_container_main bg-cyan-50">
