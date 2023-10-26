@@ -180,6 +180,34 @@ function App() {
                 </p>
               </div>{" "}
             </div>
+            <div className="expertise_item flex gap-3 py-5 px-4 bg-white">
+              <img
+                src={expertise3}
+                className="w-[47px] h-[47px]"
+                alt="expertise3"
+              />{" "}
+              <div className="expertise_item_para">
+                <p className="text-base font-semibold">Support Assist</p>
+                <p className="text-[14px] font-medium text-gray-600">
+                  Through True Rich Attended does no end it his mother since
+                  real had half every him.
+                </p>
+              </div>{" "}
+            </div>
+            <div className="expertise_item flex gap-3 py-5 px-4 bg-white">
+              <img
+                src={expertise3}
+                className="w-[47px] h-[47px]"
+                alt="expertise3"
+              />{" "}
+              <div className="expertise_item_para">
+                <p className="text-base font-semibold">Support Assist</p>
+                <p className="text-[14px] font-medium text-gray-600">
+                  Through True Rich Attended does no end it his mother since
+                  real had half every him.
+                </p>
+              </div>{" "}
+            </div>
           </div>
         </div>
         </div>
