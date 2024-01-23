@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import hero from "../assets/hero.png";
 import tranding_logo1 from "../assets/tranding_logo1.png";
 import tranding_logo2 from "../assets/tranding_logo2.png";
