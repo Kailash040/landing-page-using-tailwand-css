@@ -6,7 +6,8 @@ export default {
     extend: {},
     fontFamily: {
       'sans': ['Space Grotesk', 'ans-serif'],
-   
+      'poppins': ['Poppins'," sans-serif"],
+      'inter': ["Inter", "sans-serif"],
      }
   },
   plugins: [],
