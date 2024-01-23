@@ -1,7 +1,12 @@
 import React from "react";
 import hero from "../assets/hero.png";
+import tranding_logo1 from '../assets/tranding_logo1.png'
+import tranding_logo2 from '../assets/tranding_logo2.png'
+import tranding_logo3 from '../assets/tranding_logo3.png'
+
 const Hero = () => {
   return (
+    <>
     <div className="hero_section flex justify-center items-center lg:gap-16 bg-gray-900 text-gray-50">
       <div className="hero_img_container ">
         <img src={hero} alt="" />
@@ -20,6 +25,18 @@ const Hero = () => {
         </button>
       </div>
     </div>
+    <div className="tranding_brands">
+      <p className="font-xl  font-inter font-semibold	 text-center mt-10 mb-4">Trending Brands</p> 
+      <div className="tranding_brand_logo list-none flex gap-6 justify-center">
+        <li><a href="#"><img src={tranding_logo1} alt="" /></a></li>
+        <li><a href="#"><img src={tranding_logo2} alt="" /></a></li>
+        <li><a href="#"><img src={tranding_logo3} alt="" /></a></li>
+        <li><a href="#"><img src={tranding_logo1} alt="" /></a></li>
+        <li><a href="#"><img src={tranding_logo2} alt="" /></a></li>
+        <li><a href="#"><img src={tranding_logo3} alt="" /></a></li>
+      </div>
+    </div>
+    </>
   );
 };
 
