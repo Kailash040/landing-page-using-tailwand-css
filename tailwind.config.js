@@ -8,7 +8,8 @@ export default {
       'sans': ['Space Grotesk', 'ans-serif'],
       'poppins': ['Poppins'," sans-serif"],
       'inter': ["Inter", "sans-serif"],
-     }
+     },
+   
   },
   plugins: [],
 }
