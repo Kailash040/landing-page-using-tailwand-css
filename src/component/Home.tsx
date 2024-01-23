@@ -6,13 +6,13 @@ import logo from  '../assets/logo.png'
 const Home = () => {
   return (
     <>
-    <div className='flex justify-center bg-blue-500 text-gray-50 font-semibold gap-[12px] py-[9px]'>  <img src={Vector} className='w-[24px] h-[24px]' alt="" />
+    <div className='flex justify-center bg-blue-500 text-gray-50 font-semibold gap-[12px] py-[9px] items-center'>  <img src={Vector} className='w-[24px] h-[24px]' alt="" />
         <p className='discount_para'>30% off storewide — Limited time! </p>     <p className='border-b-2 border-gray-50'>Shop Now  </p> 
     </div>
-    <div className="navbar flex justify-evenly py-4">
+    <div className="navbar flex justify-evenly py-4 items-center">
       
       <div className="left_nav_section"> <img src={logo} alt="" /></div>
-      <div className="center_nav_section list-none flex gap-10">
+      <div className="center_nav_section list-none flex gap-10 text-[14px] font-sans">
         <li><a href="#">Home</a></li>
         <li><a href="#">Shop</a></li>
         <li><a href="#">Product</a></li>
