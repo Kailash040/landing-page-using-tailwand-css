@@ -2,13 +2,13 @@ import hero from "../assets/hero.png";
 import tranding_logo1 from "../assets/tranding_logo1.png";
 import tranding_logo2 from "../assets/tranding_logo2.png";
 import tranding_logo3 from "../assets/tranding_logo3.png";
-
+import img from '../assets/img.png'
 const Hero = () => {
   return (
     <>
       <div className="hero_section flex justify-center items-center flex-wrap lg:gap-16 bg-gray-900 text-gray-50 sm:gap-12 ">
         <div className="hero_img_container ">
-          <img src={hero} alt="" />
+          <img src={hero} alt="" className=" md:w-72 lg:w-full" />
         </div>
         <div className="hero_para_container">
           <p className="  font-poppins  	lg:text-[72px] sm:text-[40px] leading-8">
@@ -63,6 +63,23 @@ const Hero = () => {
               <img src={tranding_logo3} alt="" className="w-[160px]	h-[64px]	" />
             </a>
           </li>
+        </div>
+      </div>
+      <div className="shop_category  ">
+        <p className=" lg:text-4xl mt-12 mb-12 font-medium font-poppins text-center sm:text-3xl ">Shop by Categories</p>
+        <div className="poster_img flex flex-row justify-center gap-6 mt-12 mb-12 flex-wrap">
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
+          <div className="poster_item flex items-center flex-col "><img src={img} alt="img" className="rounded-full w-[167px] h-[167px]" />
+          <p>Justin</p></div>
         </div>
       </div>
     </>
